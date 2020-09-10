@@ -13,6 +13,51 @@
         display: flex
         justify-content: space-between
         align-items: center
+    &__bottom
+        display: grid
+        grid-template-columns: repeat(6, 1fr)
+.scroll
+    position: felative
+    &__text
+        position: absolute
+        transform: rotate(-90deg)
+        font-size: 16px
+        line-height: 21px
+        color: #737373
+        top: 660px
+        left: -40px
+    &__line
+        position: absolute
+        display: inline-block
+        grid-row: 2
+        top: 730px
+        left: 2px
+        height: 35px
+        border: 1px solid #525252
+.teo-social
+    grid-column: 4 / 5
+    grid-row: 1
+    &__fb
+        margin-left: -15px
+    &__inst
+        margin-left: 18px
+        margin-right: 20px
+.adam-social
+    grid-column: 5 / 6
+    grid-row: 1
+    display: flex
+    &__fb
+        margin-right: 18px
+        margin-left: 140px
+    &__inst
+        margin-right: 20px
+.groups
+    grid-column: 6 / 7
+    grid-row: 1
+    display: flex
+    justify-content: flex-end
+    &__vk
+        margin-left: 37px
 .location
     display: flex
     align-items: center
@@ -84,5 +129,4 @@
         &--five
             height: 2px
             border-right: 1px solid #525252
-
 
